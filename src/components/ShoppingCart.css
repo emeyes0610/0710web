@@ -1,0 +1,36 @@
+#shopping{
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#inside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#button{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+#plus{
+    background-color: #0066ff;
+}
+
+#cart{
+    background-color: rgb(113, 254, 84);
+}
+
+h1{
+    font-size: 30px;
+}

@@ -1,0 +1,45 @@
+body{
+  font-family: sans-serif;
+  background-color: rgb(221, 221, 221);
+  margin: 0;
+
+}
+#root{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#header{
+  position: fixed;
+  background-color: rgb(30, 124, 255);
+  color: aliceblue;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 30px;
+  color: white;
+  padding-right: 40%;
+}
+
+#hometext{
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  border: 1px solid rgb(204, 204, 204);
+  width: 70%;
+  height: 200px;
+  margin: 80px auto;
+  border-radius: 10px;
+}
